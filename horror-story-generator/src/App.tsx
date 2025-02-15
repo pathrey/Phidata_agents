@@ -24,7 +24,7 @@ function App() {
     setStory("");
 
     try {
-      const response = await axios.post("http://localhost:8000/generate-horror-story", {
+      const response = await axios.post("http://your url/generate-horror-story", {
         scene_prompt: `Describe a terrifying moment about ${inputValue} in 50 words.`,
         story_prompt: `Tell a 250-word horror story about ${inputValue}.`
       });
