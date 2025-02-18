@@ -1,0 +1,6 @@
+duckduckgo-search
+phidata
+groq
+uvicorn 
+fastapi
+requests
